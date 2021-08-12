@@ -1,0 +1,168 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url("/assets/bg.jpg") no-repeat;
+  background-position: -400px 0px;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+/**************** Header ****************/
+
+/* Logo */
+
+.left {
+  position: absolute;
+  color: white;
+  display: inline-block;
+  top: 30px;
+  left: 50px;
+}
+
+#logo {
+  display: inline-block;
+  filter: invert(100%);
+  width: 62px;
+}
+
+/* Navbar */
+
+.mid {
+  display: block;
+  width: 33%;
+  margin: 20px auto;
+  color: white;
+}
+
+.navbar {
+  display: inline-block;
+  list-style: none;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+.navbar li a {
+  color: rgb(190, 190, 190);
+  font-size: 20px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+  color: white;
+}
+
+/* Buttons */
+
+.right {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: white;
+}
+
+.call {
+  filter: invert(30%);
+  width: 25px;
+  padding: 17px;
+}
+
+.mail {
+  filter: invert(30%);
+  width: 30px;
+  padding: 17px;
+}
+
+.call:hover,
+.mail:hover {
+  filter: invert(0%);
+}
+
+/********************** Form **********************/
+
+.container {
+  color: white;
+  border: 2px solid rgb(92, 92, 92, 0.5);
+  border-radius: 15px;
+  margin: 100px 2px;
+  padding: 22px 25px;
+  width: 33%;
+  position: absolute;
+  right: 200px;
+}
+
+.container h1 {
+  margin: 0px;
+  margin-left: 9px;
+}
+
+.form-group input {
+  font-family: "Baloo Bhai 2", cursive;
+  margin: 6px 6px;
+  border-radius: 10px;
+  padding: 7px;
+  padding-left: 40px;
+  outline: none;
+  width: 410px;
+  font-size: 16px;
+}
+
+.btn {
+  font-weight: bolder;
+  font-family: "Baloo Bhai 2", cursive;
+  color: white;
+  margin-top: 12px;
+  margin-left: 8px;
+  padding: 7px 20px;
+  border: 1px solid rgba(163, 163, 163, 0.6);
+  border-radius: 10px;
+  background-color: rgb(54, 54, 54);
+  cursor: pointer;
+}
+
+.btn:hover {
+  font-weight: bold;
+  background-color: rgb(20, 20, 20);
+}
+
+.calendar {
+  width: 15px;
+  position: absolute;
+  filter: invert(70%);
+  top: 148px;
+  left: 45px;
+}
+
+.name {
+  width: 18px;
+  position: absolute;
+  filter: invert(70%);
+  top: 92px;
+  left: 44px;
+}
+
+.phone {
+  width: 15px;
+  position: absolute;
+  filter: invert(70%);
+  top: 206px;
+  left: 45px;
+}
+
+.email {
+  width: 17px;
+  position: absolute;
+  filter: invert(70%);
+  top: 263px;
+  left: 45px;
+}
+
+.password {
+  width: 12px;
+  position: absolute;
+  filter: invert(70%);
+  top: 317px;
+  left: 46px;
+}
